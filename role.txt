@@ -1,9 +1,9 @@
 Enter names for roles pn project
 
-Front-End (HTML, CSS:  <name> , <name>
-Back-End (Javascript): <name> , <name>
+Front-End (HTML, CSS:  <name>Vianny, Jeison<name>
+Back-End (Javascript): <name>Keyra<name>
 
            
 AI Resource: (if used ->)
-              <name of AI> <website link>
+              <name of AI> Gemini <website link> 
               <Enter the RAW queries and the results provided>

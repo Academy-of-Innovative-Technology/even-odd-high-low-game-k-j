@@ -4,11 +4,41 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Even-or-Odd Guess (0–1000)</title>
-
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <main class="container">
+  <main>
+<h1>🎯 High-Low Guessing Game</h1>
 
+<div class="game-container">
+  <p>Guess the number (0–1000):</p>
+  <input type="number" id="userGuess" min="0" max="1000" />
+  <div>
+    <button onclick="makeGuess()">Guess</button>
+    <button onclick="retryRound()">Retry</button>
+    <button onclick="quitGame()">Quit</button>
+  </div>
+  <div class="feedback" id="feedback"></div>
+
+  <div class="stats" id="stats">
+    <p>✅ Wins: <span id="wins">0</span></p>
+    <p>❌ Losses: <span id="losses">0</span></p>
+    <p>🔁 Retries: <span id="retries">0</span></p>
+    <p>🔥 Streak: <span id="streak">0</span></p>
+    <p>🔄 Rounds Played: <span id="rounds">0</span></p>
+    <p>💭 Guesses This Round: <span id="guesses">0</span></p>
+  </div>
+<div class="images">
+    <img src="https://img.freepik.com/premium-photo/excited-emoji-png-sticker-3d-rendering-transparent-background_53876-1039913.jpg?semt=ais_hybrid&w=740&q=80" alt="Ending" >
+    <img src="https://market-resized.envatousercontent.com/previews/files/262724063/come+female+emoticon+preview.jpg?w=590&h=590&cf_fit=crop&crop=top&format=auto&q=85&s=d6795db5503ab13d6f1a9b236babf78bb13481d49ef9429ab1557ce9ee1f7d65" alt="ya casi" >
+    <img src="https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/671ff8b58b0b4715228b0c1f_99.png" alt="Medio" >
+    <img src="https://images.icon-icons.com/391/PNG/256/24_39580.png" alt="" >
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/029/239/968/small/embarrased-face-3d-emoji-icon-png.png" alt="Far">
+    <img src="https://png.pngtree.com/png-vector/20241229/ourmid/pngtree-animated-shocked-emoji-with-hands-in-gesture-design-png-image_14928136.png" alt="">
+  </div>
+
+</div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
